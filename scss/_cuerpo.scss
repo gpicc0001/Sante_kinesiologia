@@ -1,0 +1,121 @@
+
+.hero{
+   background-image: url('/img/indice.jpg');
+    margin-top: 18rem;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 330px;
+    position: relative;
+
+    .contenido-hero{
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    }
+
+    .boton{
+    background-color: #15cdca7b;
+    text-decoration: none;
+    color: aliceblue;
+    font-size: 2.5rem;
+    font-weight: 700;
+    border-radius: .5rem;
+    padding: 2rem 2rem;
+    margin-top: 3rem;
+    width: 11rem;
+    text-align: center;
+    }
+    @media (max-width: 480px) {
+        .boton{
+            width: auto;
+            }
+    
+         .hero{
+            background-image: url('/img/indice.jpg');
+            background-repeat: no-repeat;
+            background-size: cover;
+            height: 200px;
+            position: relative;
+         }
+         }
+}
+
+.frase1 {
+    -webkit-box-shadow: 1px 0px 6px 2px rgba(0,0,0,0);
+    box-shadow: 1px 0px 6px 2px rgba(0,0,0,0.27);
+    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(9,49,121,1) 36%, rgba(0,212,255,1) 100%);
+    padding: 4rem;
+    p{
+    text-align: center;
+    color:aliceblue;
+    align-items: center;
+    font-size: 4rem; 
+     }
+}
+
+.main {
+    display: flex;
+    color: rgb(240, 248, 255) ;
+    margin: 15rem 15rem 12rem 23rem;
+    h3{
+    text-align: center;
+    align-items: center;
+    font-size: 2rem;
+}
+}
+
+.col0{
+    margin-right: 4rem;
+}
+
+.col{
+    border-left: groove;
+    width: 35rem;
+    height: 25rem;
+}
+
+@media (max-width: 480px){
+    .frase1{
+        padding: 2rem;
+    }
+
+    .frase1 p {
+        font-size: 3rem;
+        }
+
+    .main{
+        margin: 0px;
+        display: flex;
+        justify-content: space-between;
+        margin-bottom: 6rem;
+        
+    }
+
+    .main h3 {
+        font-size: 1.7rem;
+    }
+    
+    .col0 {
+        margin-right: 0px;
+    }
+
+    .col0 h3{
+        margin: 0px;
+        margin-top: 40px;
+        padding: 10px;
+    }
+
+    .col{
+        width: auto;
+        height: auto;
+    }
+
+    .col h3{
+        margin: 0px;
+        padding: 15px;
+    }
+    }

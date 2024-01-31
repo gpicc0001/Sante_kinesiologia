@@ -1,0 +1,162 @@
+.sobre_nosotros{
+    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(9,49,121,1) 36%, rgba(0,212,255,1) 100%);
+    margin-left: 3rem;
+    margin-right: 3rem;
+    border-radius: 6px; 
+    height: 93rem; //214rem <-- valor con la section toda desplegada            
+
+    .sobre_nosotros-subtitulo{
+    margin-top: 2rem;
+    text-align: left;
+    padding-right: 3rem;
+    color: #4babd3;
+    font-size: 3rem;
+    text-align: center;
+    
+        .sobre_nosotros h2{
+            margin-bottom: 4rem;
+            font-size: 4rem;
+            padding-top: 3rem;
+            padding-left: 4rem;
+            margin-left: 3rem;
+        }
+
+        /* #imgsn{
+        width: 55rem;
+        height: 60rem;
+        float: right;
+        margin-right: 8rem;    
+        } */
+        
+            .linea{
+            box-sizing: content-box;
+            height: 0.5rem;
+            overflow: visible;
+            width: 77rem;
+            margin-left: 7rem;
+            background-color: #4babd3;
+            }
+
+            
+
+    .sobre_nosotros-pantalladividida p{
+    font-size: 22px;
+    color: aliceblue;
+    text-align:justify;
+    margin-left: 7rem;
+    }
+        .hidesn{
+            display: none;
+        }
+        .showsn{
+            display: block;
+            
+            
+        }
+        .readmoresb{
+            background-color: transparent;
+            color: aliceblue;
+            border: none;
+            font-size: 2.5rem;
+            text-decoration: underline;
+            display: flex;
+            margin-left: 7rem;
+        }
+
+        /* .imgsn{       HASTA QUE NO APLIQUE IMAGEN QUEDA COMENTADO
+            width: 55rem;
+            height: 60rem;
+            float: right;
+            margin-right: 8rem;  
+        } */
+    }
+
+
+    .sobre_nosotros-staff{
+    display: flex;
+    flex-direction: column;
+        h3{
+        font-size: 4rem;
+        margin-left: 3rem;
+        padding-left: 4rem;
+        margin-top: 4rem;
+        margin-bottom: 12px;
+        color: #4babd3;
+        }
+        .lineastaff{
+        box-sizing: content-box;
+        height: 0.5rem;
+        overflow: visible;
+        width: 62rem;
+        margin-left: 7rem;
+        background-color: #4babd3;
+        }
+    }
+    /* .sobre_nosotros-staff img{   HASTA QUE NO APLIQUE IMAGEN QUEDA COMENTADO
+    width: 60rem;
+    height: 93rem;
+    align-self: flex-start;
+    margin-left: 7rem;
+    /* margin-top: 2rem; */
+    /* padding-right: 9rem; */
+    /* position: absolute;
+    margin-top: 10%;
+    }  */
+
+    .sobre_nosotros-staff h4{
+    font-size: 3rem;
+    margin-left: 7rem;
+    color: aliceblue;
+    margin-bottom: 2rem;
+    }
+
+        .parrafostaff{
+        color: aliceblue;
+        font-size: 22px;
+        margin-left: 7rem;
+
+            .esconderstaff{
+                    display: none;
+                }
+
+                .mostrarstaff{
+                    display: block;
+                }
+                
+                .leermas{
+                    background-color: transparent;
+                    color: aliceblue;
+                    border: none;
+                    font-size: 2.5rem;
+                    text-decoration: underline;
+                    display: flex;
+                    margin-right: 82rem;
+                }
+    }}
+
+
+
+.escudos{
+    /* display: flex; */
+    position: relative;
+    margin-top: 89rem;
+    
+    .escudo1{
+    height: 12rem;
+    padding-right: 2rem;
+    padding-left: 9rem;
+    }
+
+    .escudo2{
+    height: 12rem;
+    padding-right: 2rem;
+    }
+
+    .escudo3{
+    height: 12rem;
+    padding-right: 2rem;
+    }
+
+    .escudo4{
+    height: 12rem;
+}}

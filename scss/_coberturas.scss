@@ -1,0 +1,127 @@
+  #coberturas{
+    // margin-top: 100%;
+    position:relative;
+    
+  
+    .titulocoberturas{
+        height: 13rem;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-size: 4rem;
+        margin-top: auto;
+        margin-bottom: -2rem;
+        color: #4babd3;
+    }
+
+    .lineacoberturas{
+        box-sizing: content-box;
+        height: 0.5rem;
+        overflow: visible;
+        width: 142rem;
+        margin-left: 18rem;
+        background-color:#4babd3;
+        }
+    
+    .coberturascolumnas{
+        display: flex;
+
+        .columnaomint{
+            #img1{
+                display: flex;
+                justify-content: left;
+                float: left;
+                margin-left: 25rem;
+                height: 8rem;
+                margin-top: 6rem;
+                margin-bottom: 6rem;
+                position: absolute;
+                }
+
+            .textoomint{
+            
+                font-size: 2rem;
+                color: aliceblue;
+                text-align: center;
+                justify-content: center;
+                margin-left: 40rem;
+                margin-top: 8rem;
+                }
+
+            #img2{
+                display: flex;
+                justify-content: left;
+                float: left;
+                margin-left: 25rem;
+                height: 8rem;
+                margin-top: 21rem;
+                margin-bottom: 6rem;
+                position: absolute;
+                }
+
+            .textoosde{
+            
+                font-size: 2rem;
+                color: aliceblue;
+                text-align: left;
+                justify-content: left;
+                margin-left: 40rem;
+                margin-top: 25rem;
+                }
+        }
+               
+        .columnaosppra{
+            #img3{
+                display: flex;
+                justify-content: left;
+                float: left;
+                margin-left: 28rem;
+                height: 8rem;
+                margin-top: 6rem;
+                margin-bottom: 6rem;
+                position: absolute;
+                }
+        
+            .textoosppra{
+                font-size: 2rem;
+                color: aliceblue;
+                text-align: left;
+                margin-left: 46rem;
+                margin-top: 8rem;
+            }
+    
+            #img4{
+                display: flex;
+                justify-content: left;
+                float: left;
+                margin-left: 30rem;
+                height: 8rem;
+                margin-top: 21rem;
+                position: absolute;
+            }
+        
+            .textoswissmedical{
+                font-size: 2rem;
+                color: aliceblue;
+                text-align: left;
+                justify-content: left;
+                margin-left: 46rem;
+                margin-top: 25rem;
+            }
+        }        
+   }
+
+    #parrafo-cobertura{
+            display: flex;
+            font-size: 3rem;
+            color: aliceblue;
+            text-align: center;
+            justify-content: center;
+            margin-top: 13rem;
+            text-decoration:underline;
+        }
+
+}
+
+
+

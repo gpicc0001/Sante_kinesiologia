@@ -386,9 +386,9 @@
       var verMenosBtn1 = document.getElementById('verMenosBtn1');
       var verMenosBtn2 = document.getElementById('verMenosBtn2');
 
-      var alturaTotal = contenidoAdicional1.offsetHeight + contenidoAdicional2.offsetHeight;
-      document.getElementById('coberturas').style.marginTop = alturaTotal + 'px';
-
+      var alturaTotal = contenidoAdicional1.offsetHeight + contenidoAdicional2.offsetHeight;      
+    //   document.getElementById('coberturas').style.marginTop = alturaTotal + 'px';
+      
       // Mostrar u ocultar el botón "Ver menos" según la visibilidad del contenido adicional
       verMenosBtn1.style.display = contenidoAdicional1.style.display === 'block' ? 'inline-block' : 'none';
       verMenosBtn2.style.display = contenidoAdicional2.style.display === 'block' ? 'inline-block' : 'none';

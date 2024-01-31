@@ -449,7 +449,7 @@ header {
   margin-left: 3rem;
   margin-right: 3rem;
   border-radius: 6px;
-  height: 93rem;
+  height: auto;
   /* .sobre_nosotros-staff img{   HASTA QUE NO APLIQUE IMAGEN QUEDA COMENTADO
     width: 60rem;
     height: 93rem;
